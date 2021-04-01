@@ -150,4 +150,50 @@ public class NeedHelp extends WebAPI {
         Assert.assertEquals(actualTitle,expectedTitle,"Title does not match");
 
     }
+
+    public void clickOnNeedHelp(){
+        getNeedHelp().click();
+    }
+
+    public void checkTitleNeedHelp(String expectedTitle){
+        String actualTitle = driver.getTitle();
+        Assert.assertEquals(actualTitle,expectedTitle,"Title does not match");
+
+    }
+
+    public void clickOnReceipts(){
+        getReceipts().click();
+    }
+
+    public void checkTitlegetNeedHelp(String expectedTitle){
+        String actualTitle = driver.getTitle();
+        Assert.assertEquals(actualTitle,expectedTitle,"Title does not match");
+
+    }
+
+    public void clickOnCertificatesEcredits(){
+        getCertificatesEcredits().click();
+    }
+
+    public void checkTitleCertificatesEcredits(String expectedTitle){
+        String actualTitle = driver.getTitle();
+        Assert.assertEquals(actualTitle,expectedTitle,"Title does not match");
+
+    }
+
+    public void clickOnChildInfantTravel(){
+        getChildInfantTravel().click();
+    }
+
+    public void checkTitleChildInfantTravel(String expectedTitle){
+        String actualTitle = driver.getTitle();
+        Assert.assertEquals(actualTitle,expectedTitle,"Title does not match");
+
+    }
+
+
+
+
+
+
 }
