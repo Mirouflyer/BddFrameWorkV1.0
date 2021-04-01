@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="39.966">
+<testcase classname="check Need Help Functionality" name="Check change cancel help title" time="6.555">
+<system-out><![CDATA[Given user is on the Delta Home Page........................................passed
+When user mouse hover on need help feature..................................passed
+And user clicks on change cancel help link..................................passed
+Then user should see Flight Help : Delta Air Lines "Flight Help : Delta Air Lines" window displayed.passed
+]]></system-out>
+</testcase>
+<testcase classname="check Need Help Functionality" name="Check refund help title" time="6.213">
+<system-out><![CDATA[Given user is on the Delta Home Page........................................passed
+When user mouse hover on need help feature..................................passed
+And user clicks on refund help link.........................................passed
+Then user should see Delta Cancellation & Refund Policy : Delta Air Lines "Delta Cancellation & Refund Policy : Delta Air Lines" window displayed.passed
+]]></system-out>
+</testcase>
+<testcase classname="check Need Help Functionality" name="Check seats help title" time="7.942">
+<system-out><![CDATA[Given user is on the Delta Home Page........................................passed
+When user mouse hover on need help feature..................................passed
+And user clicks on seats help link..........................................passed
+Then user should see Seat Support : Delta Air Lines "Seat Support : Delta Air Lines" window displayed.passed
+]]></system-out>
+</testcase>
+<testcase classname="check Need Help Functionality" name="Check baggage help title" time="10.159">
+<system-out><![CDATA[Given user is on the Delta Home Page........................................passed
+When user mouse hover on need help feature..................................passed
+And user clicks on baggage help link........................................passed
+Then user should see Baggage Policy and Fees | Delta Air Lines "Baggage Policy and Fees | Delta Air Lines" window displayed.passed
+]]></system-out>
+</testcase>
+<testcase classname="check Need Help Functionality" name="Check comment/complaint title" time="8.832">
+<system-out><![CDATA[Given user is on the Delta Home Page........................................passed
+When user mouse hover on need help feature..................................passed
+And user clicks on comment complaint link...................................passed
+Then user should see Help Center : Get Help with Reservations, Baggage & More : Delta Air Lines "Help Center : Get Help with Reservations, Baggage & More : Delta Air Lines" window displayed.passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,0 +1,1546 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-04-01T04:14:25.905Z",
+        "line": 3,
+        "name": "Check change cancel help title",
+        "description": "",
+        "id": "check-need-help-functionality;check-change-cancel-help-title",
+        "after": [
+          {
+            "result": {
+              "duration": 94000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.NeedHelpStepDefinitions.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinition.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.TravelInfoStepDefinitions.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4322000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 17000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TravelInfoStepDefinitions.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.NeedHelpStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "user is on the Delta Home Page",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinition.user_is_on_the_delta_home_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.NeedHelpStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TravelInfoStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 133000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TravelInfoStepDefinitions.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.NeedHelpStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "user mouse hover on need help feature",
+            "match": {
+              "location": "stepDefinitions.NeedHelpStepDefinitions.user_mouse_hover_on_need_help_feature()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.NeedHelpStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TravelInfoStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1902000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TravelInfoStepDefinitions.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.NeedHelpStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "user clicks on change cancel help link",
+            "match": {
+              "location": "stepDefinitions.NeedHelpStepDefinitions.user_clicks_on_change_cancel_help_link()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.NeedHelpStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TravelInfoStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TravelInfoStepDefinitions.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.NeedHelpStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "user should see Flight Help : Delta Air Lines \"Flight Help : Delta Air Lines\" window displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Flight Help : Delta Air Lines\"",
+                  "offset": 46
+                }
+              ],
+              "location": "stepDefinitions.NeedHelpStepDefinitions.user_should_see_flight_help_delta_air_lines_window_displayed(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.NeedHelpStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TravelInfoStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-01T04:14:32.475Z",
+        "line": 9,
+        "name": "Check refund help title",
+        "description": "",
+        "id": "check-need-help-functionality;check-refund-help-title",
+        "after": [
+          {
+            "result": {
+              "duration": 94000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.NeedHelpStepDefinitions.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinition.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.TravelInfoStepDefinitions.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3938000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TravelInfoStepDefinitions.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.NeedHelpStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 10,
+            "name": "user is on the Delta Home Page",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinition.user_is_on_the_delta_home_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.NeedHelpStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TravelInfoStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 133000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TravelInfoStepDefinitions.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.NeedHelpStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 11,
+            "name": "user mouse hover on need help feature",
+            "match": {
+              "location": "stepDefinitions.NeedHelpStepDefinitions.user_mouse_hover_on_need_help_feature()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.NeedHelpStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TravelInfoStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2033000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TravelInfoStepDefinitions.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.NeedHelpStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 12,
+            "name": "user clicks on refund help link",
+            "match": {
+              "location": "stepDefinitions.NeedHelpStepDefinitions.user_clicks_on_refund_help_link()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.NeedHelpStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TravelInfoStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TravelInfoStepDefinitions.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.NeedHelpStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 13,
+            "name": "user should see Delta Cancellation \u0026 Refund Policy : Delta Air Lines \"Delta Cancellation \u0026 Refund Policy : Delta Air Lines\" window displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Delta Cancellation \u0026 Refund Policy : Delta Air Lines\"",
+                  "offset": 69
+                }
+              ],
+              "location": "stepDefinitions.NeedHelpStepDefinitions.user_should_see_delta_cancellation_refund_policy_delta_air_lines_window_displayed(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.NeedHelpStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TravelInfoStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-01T04:14:38.695Z",
+        "line": 15,
+        "name": "Check seats help title",
+        "description": "",
+        "id": "check-need-help-functionality;check-seats-help-title",
+        "after": [
+          {
+            "result": {
+              "duration": 99000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.NeedHelpStepDefinitions.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinition.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.TravelInfoStepDefinitions.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5300000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TravelInfoStepDefinitions.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.NeedHelpStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 16,
+            "name": "user is on the Delta Home Page",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinition.user_is_on_the_delta_home_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.NeedHelpStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TravelInfoStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 131000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TravelInfoStepDefinitions.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.NeedHelpStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 17,
+            "name": "user mouse hover on need help feature",
+            "match": {
+              "location": "stepDefinitions.NeedHelpStepDefinitions.user_mouse_hover_on_need_help_feature()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.NeedHelpStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TravelInfoStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2399000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TravelInfoStepDefinitions.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.NeedHelpStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 18,
+            "name": "user clicks on seats help link",
+            "match": {
+              "location": "stepDefinitions.NeedHelpStepDefinitions.user_clicks_on_seats_help_link()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.NeedHelpStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TravelInfoStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TravelInfoStepDefinitions.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.NeedHelpStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 19,
+            "name": "user should see Seat Support : Delta Air Lines \"Seat Support : Delta Air Lines\" window displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Seat Support : Delta Air Lines\"",
+                  "offset": 47
+                }
+              ],
+              "location": "stepDefinitions.NeedHelpStepDefinitions.user_should_see_seat_support_delta_air_lines_window_displayed(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.NeedHelpStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TravelInfoStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-01T04:14:46.644Z",
+        "line": 21,
+        "name": "Check baggage help title",
+        "description": "",
+        "id": "check-need-help-functionality;check-baggage-help-title",
+        "after": [
+          {
+            "result": {
+              "duration": 102000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.NeedHelpStepDefinitions.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinition.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.TravelInfoStepDefinitions.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6994000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TravelInfoStepDefinitions.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.NeedHelpStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 22,
+            "name": "user is on the Delta Home Page",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinition.user_is_on_the_delta_home_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.NeedHelpStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TravelInfoStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 132000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TravelInfoStepDefinitions.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.NeedHelpStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 23,
+            "name": "user mouse hover on need help feature",
+            "match": {
+              "location": "stepDefinitions.NeedHelpStepDefinitions.user_mouse_hover_on_need_help_feature()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.NeedHelpStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TravelInfoStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2916000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TravelInfoStepDefinitions.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.NeedHelpStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 24,
+            "name": "user clicks on baggage help link",
+            "match": {
+              "location": "stepDefinitions.NeedHelpStepDefinitions.user_clicks_on_baggage_help_link()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.NeedHelpStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TravelInfoStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TravelInfoStepDefinitions.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.NeedHelpStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 25,
+            "name": "user should see Baggage Policy and Fees | Delta Air Lines \"Baggage Policy and Fees | Delta Air Lines\" window displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Baggage Policy and Fees | Delta Air Lines\"",
+                  "offset": 58
+                }
+              ],
+              "location": "stepDefinitions.NeedHelpStepDefinitions.user_should_see_baggage_policy_and_fees_delta_air_lines_window_displayed(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.NeedHelpStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TravelInfoStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-01T04:14:56.810Z",
+        "line": 27,
+        "name": "Check comment/complaint title",
+        "description": "",
+        "id": "check-need-help-functionality;check-comment/complaint-title",
+        "after": [
+          {
+            "result": {
+              "duration": 102000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.NeedHelpStepDefinitions.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinition.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.TravelInfoStepDefinitions.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4327000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TravelInfoStepDefinitions.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.NeedHelpStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 28,
+            "name": "user is on the Delta Home Page",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinition.user_is_on_the_delta_home_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.NeedHelpStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TravelInfoStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 132000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TravelInfoStepDefinitions.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.NeedHelpStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 29,
+            "name": "user mouse hover on need help feature",
+            "match": {
+              "location": "stepDefinitions.NeedHelpStepDefinitions.user_mouse_hover_on_need_help_feature()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.NeedHelpStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TravelInfoStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4249000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TravelInfoStepDefinitions.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.NeedHelpStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 30,
+            "name": "user clicks on comment complaint link",
+            "match": {
+              "location": "stepDefinitions.NeedHelpStepDefinitions.user_clicks_on_comment_complaint_link()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.NeedHelpStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TravelInfoStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TravelInfoStepDefinitions.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.NeedHelpStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 31,
+            "name": "user should see Help Center : Get Help with Reservations, Baggage \u0026 More : Delta Air Lines \"Help Center : Get Help with Reservations, Baggage \u0026 More : Delta Air Lines\" window displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Help Center : Get Help with Reservations, Baggage \u0026 More : Delta Air Lines\"",
+                  "offset": 91
+                }
+              ],
+              "location": "stepDefinitions.NeedHelpStepDefinitions.user_should_see_help_center_get_help_with_reservations_baggage_more_delta_air_lines_window_displayed(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.NeedHelpStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TravelInfoStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "check Need Help Functionality",
+    "description": "",
+    "id": "check-need-help-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/needHelpScenario.feature",
+    "tags": []
+  }
+]

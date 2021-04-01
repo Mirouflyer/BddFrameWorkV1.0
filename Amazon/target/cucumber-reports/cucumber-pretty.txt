@@ -1,0 +1,30 @@
+
+Scenario: Check change cancel help title                                                              # src/test/java/features/needHelpScenario.feature:3
+  Given user is on the Delta Home Page                                                                # stepDefinitions.HomePageStepDefinition.user_is_on_the_delta_home_page()
+  When user mouse hover on need help feature                                                          # stepDefinitions.NeedHelpStepDefinitions.user_mouse_hover_on_need_help_feature()
+  And user clicks on change cancel help link                                                          # stepDefinitions.NeedHelpStepDefinitions.user_clicks_on_change_cancel_help_link()
+  Then user should see Flight Help : Delta Air Lines "Flight Help : Delta Air Lines" window displayed # stepDefinitions.NeedHelpStepDefinitions.user_should_see_flight_help_delta_air_lines_window_displayed(java.lang.String)
+
+Scenario: Check refund help title                                                                                                                   # src/test/java/features/needHelpScenario.feature:9
+  Given user is on the Delta Home Page                                                                                                              # stepDefinitions.HomePageStepDefinition.user_is_on_the_delta_home_page()
+  When user mouse hover on need help feature                                                                                                        # stepDefinitions.NeedHelpStepDefinitions.user_mouse_hover_on_need_help_feature()
+  And user clicks on refund help link                                                                                                               # stepDefinitions.NeedHelpStepDefinitions.user_clicks_on_refund_help_link()
+  Then user should see Delta Cancellation & Refund Policy : Delta Air Lines "Delta Cancellation & Refund Policy : Delta Air Lines" window displayed # stepDefinitions.NeedHelpStepDefinitions.user_should_see_delta_cancellation_refund_policy_delta_air_lines_window_displayed(java.lang.String)
+
+Scenario: Check seats help title                                                                        # src/test/java/features/needHelpScenario.feature:15
+  Given user is on the Delta Home Page                                                                  # stepDefinitions.HomePageStepDefinition.user_is_on_the_delta_home_page()
+  When user mouse hover on need help feature                                                            # stepDefinitions.NeedHelpStepDefinitions.user_mouse_hover_on_need_help_feature()
+  And user clicks on seats help link                                                                    # stepDefinitions.NeedHelpStepDefinitions.user_clicks_on_seats_help_link()
+  Then user should see Seat Support : Delta Air Lines "Seat Support : Delta Air Lines" window displayed # stepDefinitions.NeedHelpStepDefinitions.user_should_see_seat_support_delta_air_lines_window_displayed(java.lang.String)
+
+Scenario: Check baggage help title                                                                                            # src/test/java/features/needHelpScenario.feature:21
+  Given user is on the Delta Home Page                                                                                        # stepDefinitions.HomePageStepDefinition.user_is_on_the_delta_home_page()
+  When user mouse hover on need help feature                                                                                  # stepDefinitions.NeedHelpStepDefinitions.user_mouse_hover_on_need_help_feature()
+  And user clicks on baggage help link                                                                                        # stepDefinitions.NeedHelpStepDefinitions.user_clicks_on_baggage_help_link()
+  Then user should see Baggage Policy and Fees | Delta Air Lines "Baggage Policy and Fees | Delta Air Lines" window displayed # stepDefinitions.NeedHelpStepDefinitions.user_should_see_baggage_policy_and_fees_delta_air_lines_window_displayed(java.lang.String)
+
+Scenario: Check comment/complaint title                                                                                                                                                         # src/test/java/features/needHelpScenario.feature:27
+  Given user is on the Delta Home Page                                                                                                                                                          # stepDefinitions.HomePageStepDefinition.user_is_on_the_delta_home_page()
+  When user mouse hover on need help feature                                                                                                                                                    # stepDefinitions.NeedHelpStepDefinitions.user_mouse_hover_on_need_help_feature()
+  And user clicks on comment complaint link                                                                                                                                                     # stepDefinitions.NeedHelpStepDefinitions.user_clicks_on_comment_complaint_link()
+  Then user should see Help Center : Get Help with Reservations, Baggage & More : Delta Air Lines "Help Center : Get Help with Reservations, Baggage & More : Delta Air Lines" window displayed # stepDefinitions.NeedHelpStepDefinitions.user_should_see_help_center_get_help_with_reservations_baggage_more_delta_air_lines_window_displayed(java.lang.String)
