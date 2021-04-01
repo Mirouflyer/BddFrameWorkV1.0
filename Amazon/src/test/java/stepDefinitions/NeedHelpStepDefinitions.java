@@ -92,4 +92,55 @@ public class NeedHelpStepDefinitions extends WebAPI {
        needHelp.checkTitlecommentComplaintHelp(string);
     }
 
+    //Coronavirus Travel FAQs
+    @When("user clicks on Coronavirus Travel FAQs link")
+    public void user_clicks_on_coronavirus_travel_fa_qs_link() {
+       needHelp.clickOnCoronavirusTravelFaqs();
+    }
+    @Then("user should see Coronavirus Travel: FAQs | Delta Air Lines | Delta Air Lines {string} window displayed")
+    public void user_should_see_coronavirus_travel_fa_qs_delta_air_lines_delta_air_lines_window_displayed(String string) {
+        needHelp.checkTitleCoronavirusTravelFaqs(string);
+    }
+
+    //Need Help ?
+    @When("user clicks on Need Help ? link")
+    public void user_clicks_on_need_help_link() {
+       needHelp.clickOnNeedHelp();
+    }
+
+    @Then("user should see Need Help {string} window displayed")
+    public void user_should_see_need_help_window_displayed(String string) {
+       needHelp.checkTitleNeedHelp(string);
+    }
+
+    //Receipts
+    @When("user clicks on receipts link")
+    public void user_clicks_on_receipts_link() {
+        needHelp.clickOnReceipts();
+    }
+    @Then("user should see Other Information : Delta Need Help {string} window displayed")
+    public void user_should_see_other_information_delta_need_help_window_displayed(String string) {
+       needHelp.checkTitleNeedHelp(string);
+    }
+
+    //Ceritificate And eCredits
+    @When("user clicks on Certificates And eCredits link")
+    public void user_clicks_on_certificates_and_e_credits_link() {
+        needHelp.clickOnCertificatesEcredits();
+    }
+    @Then("user should see View or Redeem Multiple Certificates or Ecredits or Gift Cards : Delta Air  Lines {string} window displayed")
+    public void user_should_see_view_or_redeem_multiple_certificates_or_ecredits_or_gift_cards_delta_air_lines_window_displayed(String string) {
+        needHelp.checkTitleCertificatesEcredits(string);
+    }
+
+    //Child And Enfant Travel
+    @When("user clicks on Child And Enfant Travel  link")
+    public void user_clicks_on_child_and_enfant_travel_link() {
+        needHelp.clickOnChildInfantTravel();
+    }
+    @Then("user should see Children & Infant Travel Policy : Delta Air Lines {string} window displayed")
+    public void user_should_see_children_infant_travel_policy_delta_air_lines_window_displayed(String string) {
+       needHelp.checkTitleChildInfantTravel(string);
+    }
+
 }

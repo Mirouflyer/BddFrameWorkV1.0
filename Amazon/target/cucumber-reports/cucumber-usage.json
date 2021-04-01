@@ -5,29 +5,17 @@
       {
         "name": "user is on the Delta Home Page",
         "aggregatedDurations": {
-          "median": 4.327,
-          "average": 4.9762
+          "median": 4.124,
+          "average": 4.124
         },
         "durations": [
           {
-            "duration": 4.322,
-            "location": "file:///Users/mirouflyer/Desktop/cucumberFramework/BddFrameworkV1_0/Amazon/src/test/java/features/needHelpScenario.feature:4"
+            "duration": 4.177,
+            "location": "file:///Users/mirouflyer/Desktop/cucumberFramework/BddFrameworkV1_0/Amazon/src/test/java/features/needHelpScenario.feature:53"
           },
           {
-            "duration": 3.938,
-            "location": "file:///Users/mirouflyer/Desktop/cucumberFramework/BddFrameworkV1_0/Amazon/src/test/java/features/needHelpScenario.feature:10"
-          },
-          {
-            "duration": 5.3,
-            "location": "file:///Users/mirouflyer/Desktop/cucumberFramework/BddFrameworkV1_0/Amazon/src/test/java/features/needHelpScenario.feature:16"
-          },
-          {
-            "duration": 6.994,
-            "location": "file:///Users/mirouflyer/Desktop/cucumberFramework/BddFrameworkV1_0/Amazon/src/test/java/features/needHelpScenario.feature:22"
-          },
-          {
-            "duration": 4.327,
-            "location": "file:///Users/mirouflyer/Desktop/cucumberFramework/BddFrameworkV1_0/Amazon/src/test/java/features/needHelpScenario.feature:28"
+            "duration": 4.071,
+            "location": "file:///Users/mirouflyer/Desktop/cucumberFramework/BddFrameworkV1_0/Amazon/src/test/java/features/needHelpScenario.feature:60"
           }
         ]
       }
@@ -39,57 +27,45 @@
       {
         "name": "user mouse hover on need help feature",
         "aggregatedDurations": {
-          "median": 0.132,
-          "average": 0.1322
+          "median": 0.1385,
+          "average": 0.1385
         },
         "durations": [
           {
-            "duration": 0.133,
-            "location": "file:///Users/mirouflyer/Desktop/cucumberFramework/BddFrameworkV1_0/Amazon/src/test/java/features/needHelpScenario.feature:5"
+            "duration": 0.147,
+            "location": "file:///Users/mirouflyer/Desktop/cucumberFramework/BddFrameworkV1_0/Amazon/src/test/java/features/needHelpScenario.feature:54"
           },
           {
-            "duration": 0.133,
-            "location": "file:///Users/mirouflyer/Desktop/cucumberFramework/BddFrameworkV1_0/Amazon/src/test/java/features/needHelpScenario.feature:11"
-          },
-          {
-            "duration": 0.131,
-            "location": "file:///Users/mirouflyer/Desktop/cucumberFramework/BddFrameworkV1_0/Amazon/src/test/java/features/needHelpScenario.feature:17"
-          },
-          {
-            "duration": 0.132,
-            "location": "file:///Users/mirouflyer/Desktop/cucumberFramework/BddFrameworkV1_0/Amazon/src/test/java/features/needHelpScenario.feature:23"
-          },
-          {
-            "duration": 0.132,
-            "location": "file:///Users/mirouflyer/Desktop/cucumberFramework/BddFrameworkV1_0/Amazon/src/test/java/features/needHelpScenario.feature:29"
+            "duration": 0.13,
+            "location": "file:///Users/mirouflyer/Desktop/cucumberFramework/BddFrameworkV1_0/Amazon/src/test/java/features/needHelpScenario.feature:61"
           }
         ]
       }
     ]
   },
   {
-    "source": "user clicks on change cancel help link",
+    "source": "user clicks on Certificates And eCredits link",
     "steps": [
       {
-        "name": "user clicks on change cancel help link",
+        "name": "user clicks on Certificates And eCredits link",
         "aggregatedDurations": {
-          "median": 1.902,
-          "average": 1.902
+          "median": 2.482,
+          "average": 2.482
         },
         "durations": [
           {
-            "duration": 1.902,
-            "location": "file:///Users/mirouflyer/Desktop/cucumberFramework/BddFrameworkV1_0/Amazon/src/test/java/features/needHelpScenario.feature:6"
+            "duration": 2.482,
+            "location": "file:///Users/mirouflyer/Desktop/cucumberFramework/BddFrameworkV1_0/Amazon/src/test/java/features/needHelpScenario.feature:55"
           }
         ]
       }
     ]
   },
   {
-    "source": "user should see Flight Help : Delta Air Lines {string} window displayed",
+    "source": "user should see View or Redeem Multiple Certificates or Ecredits or Gift Cards : Delta Air  Lines {string} window displayed",
     "steps": [
       {
-        "name": "user should see Flight Help : Delta Air Lines \"Flight Help : Delta Air Lines\" window displayed",
+        "name": "user should see View or Redeem Multiple Certificates or Ecredits or Gift Cards : Delta Air  Lines \"View or Redeem Multiple Certificates or Ecredits or Gift Cards : Delta Air Lines\" window displayed",
         "aggregatedDurations": {
           "median": 0.006,
           "average": 0.006
@@ -97,71 +73,35 @@
         "durations": [
           {
             "duration": 0.006,
-            "location": "file:///Users/mirouflyer/Desktop/cucumberFramework/BddFrameworkV1_0/Amazon/src/test/java/features/needHelpScenario.feature:7"
+            "location": "file:///Users/mirouflyer/Desktop/cucumberFramework/BddFrameworkV1_0/Amazon/src/test/java/features/needHelpScenario.feature:56"
           }
         ]
       }
     ]
   },
   {
-    "source": "user clicks on refund help link",
+    "source": "user clicks on Child And Enfant Travel  link",
     "steps": [
       {
-        "name": "user clicks on refund help link",
+        "name": "user clicks on Child And Enfant Travel  link",
         "aggregatedDurations": {
-          "median": 2.033,
-          "average": 2.033
+          "median": 2.501,
+          "average": 2.501
         },
         "durations": [
           {
-            "duration": 2.033,
-            "location": "file:///Users/mirouflyer/Desktop/cucumberFramework/BddFrameworkV1_0/Amazon/src/test/java/features/needHelpScenario.feature:12"
+            "duration": 2.501,
+            "location": "file:///Users/mirouflyer/Desktop/cucumberFramework/BddFrameworkV1_0/Amazon/src/test/java/features/needHelpScenario.feature:62"
           }
         ]
       }
     ]
   },
   {
-    "source": "user should see Delta Cancellation \u0026 Refund Policy : Delta Air Lines {string} window displayed",
+    "source": "user should see Children \u0026 Infant Travel Policy : Delta Air Lines {string} window displayed",
     "steps": [
       {
-        "name": "user should see Delta Cancellation \u0026 Refund Policy : Delta Air Lines \"Delta Cancellation \u0026 Refund Policy : Delta Air Lines\" window displayed",
-        "aggregatedDurations": {
-          "median": 0.003,
-          "average": 0.003
-        },
-        "durations": [
-          {
-            "duration": 0.003,
-            "location": "file:///Users/mirouflyer/Desktop/cucumberFramework/BddFrameworkV1_0/Amazon/src/test/java/features/needHelpScenario.feature:13"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "user clicks on seats help link",
-    "steps": [
-      {
-        "name": "user clicks on seats help link",
-        "aggregatedDurations": {
-          "median": 2.399,
-          "average": 2.399
-        },
-        "durations": [
-          {
-            "duration": 2.399,
-            "location": "file:///Users/mirouflyer/Desktop/cucumberFramework/BddFrameworkV1_0/Amazon/src/test/java/features/needHelpScenario.feature:18"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "user should see Seat Support : Delta Air Lines {string} window displayed",
-    "steps": [
-      {
-        "name": "user should see Seat Support : Delta Air Lines \"Seat Support : Delta Air Lines\" window displayed",
+        "name": "user should see Children \u0026 Infant Travel Policy : Delta Air Lines \"Children \u0026 Infant Travel Policy : Delta Air Lines\" window displayed",
         "aggregatedDurations": {
           "median": 0.003,
           "average": 0.003
@@ -169,79 +109,7 @@
         "durations": [
           {
             "duration": 0.003,
-            "location": "file:///Users/mirouflyer/Desktop/cucumberFramework/BddFrameworkV1_0/Amazon/src/test/java/features/needHelpScenario.feature:19"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "user clicks on baggage help link",
-    "steps": [
-      {
-        "name": "user clicks on baggage help link",
-        "aggregatedDurations": {
-          "median": 2.916,
-          "average": 2.916
-        },
-        "durations": [
-          {
-            "duration": 2.916,
-            "location": "file:///Users/mirouflyer/Desktop/cucumberFramework/BddFrameworkV1_0/Amazon/src/test/java/features/needHelpScenario.feature:24"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "user should see Baggage Policy and Fees | Delta Air Lines {string} window displayed",
-    "steps": [
-      {
-        "name": "user should see Baggage Policy and Fees | Delta Air Lines \"Baggage Policy and Fees | Delta Air Lines\" window displayed",
-        "aggregatedDurations": {
-          "median": 0.003,
-          "average": 0.003
-        },
-        "durations": [
-          {
-            "duration": 0.003,
-            "location": "file:///Users/mirouflyer/Desktop/cucumberFramework/BddFrameworkV1_0/Amazon/src/test/java/features/needHelpScenario.feature:25"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "user clicks on comment complaint link",
-    "steps": [
-      {
-        "name": "user clicks on comment complaint link",
-        "aggregatedDurations": {
-          "median": 4.249,
-          "average": 4.249
-        },
-        "durations": [
-          {
-            "duration": 4.249,
-            "location": "file:///Users/mirouflyer/Desktop/cucumberFramework/BddFrameworkV1_0/Amazon/src/test/java/features/needHelpScenario.feature:30"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "user should see Help Center : Get Help with Reservations, Baggage \u0026 More : Delta Air Lines {string} window displayed",
-    "steps": [
-      {
-        "name": "user should see Help Center : Get Help with Reservations, Baggage \u0026 More : Delta Air Lines \"Help Center : Get Help with Reservations, Baggage \u0026 More : Delta Air Lines\" window displayed",
-        "aggregatedDurations": {
-          "median": 0.014,
-          "average": 0.014
-        },
-        "durations": [
-          {
-            "duration": 0.014,
-            "location": "file:///Users/mirouflyer/Desktop/cucumberFramework/BddFrameworkV1_0/Amazon/src/test/java/features/needHelpScenario.feature:31"
+            "location": "file:///Users/mirouflyer/Desktop/cucumberFramework/BddFrameworkV1_0/Amazon/src/test/java/features/needHelpScenario.feature:63"
           }
         ]
       }
